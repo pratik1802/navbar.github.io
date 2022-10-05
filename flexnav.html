@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Flex</title>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar{
+
+            /* border: 1px solid green; */
+            background-color: crimson;
+            height: 100%;
+        }
+
+        .nav-list{
+
+            /* border: 1px solid white; */
+            height: 10vh;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            flex-wrap:  wrap-reverse;
+        }
+
+        .nav-list li{
+
+            list-style: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+             border: 1px solid white; 
+            padding: .5rem;
+            border-radius: 5px 10px 30px 20px;;
+            transition: all ease .6s;
+        }
+
+        .nav-list li:hover{
+
+            /* background-color: white; */
+            color: black;
+            cursor:pointer;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <ul class="nav-list">
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+
+    
+</body>
+</html>
